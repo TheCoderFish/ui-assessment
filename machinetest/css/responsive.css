@@ -1,0 +1,82 @@
+/* for ipad view media quries */
+@media screen and (max-width:1024px) {
+    .header-section h1{
+        font-size:28px;
+        margin:20px 0 20px 0;
+      }
+    .inp-wrap {
+        display: inline-block;
+    
+    }
+    .search-label {
+      border-radius: 0;
+    }
+    .search-wrap {
+        width: 75%;
+        background-color: #E1E1E1;
+    }
+    .cat-wrap {
+      width:25%;
+    }
+    .submit-wrap {
+      width: 50%;
+      display: block;
+      margin: 1rem auto 1rem;
+    }
+    .btn {
+      border-radius: 5px;
+    }
+    .search-form {
+      padding: 0 1rem;
+    }
+    /* left side section start from here */
+    .welcome-essie h3 {
+      display: inline-block;
+      font-size: 18px;
+      margin: 0 4px;
+  }
+  .border-sec {
+    border-right:none;
+}
+    /* left side section end */
+  }
+  /* for mobile view media queries */
+  @media screen and (max-width:740px) {
+    .header-section h1{
+        font-size:22px;
+        margin:20px 0 20px 0;
+      }
+    .cat-wrap,
+    .search-wrap {
+      width:50%;
+      margin-bottom: 0.5rem;
+    }
+    .grid-80 {
+      width:100%;
+    }
+    .grid-25 {
+      width: 25%;
+    }
+    .inp-wrap {
+        display: inline-block;
+    
+    }
+    .left-side-section {
+      background-color: #fff;
+      padding: 0px 20px 50px 20px;
+      border: 1px solid #eee;
+      box-shadow: 3px 4px #eee;
+      height: 600px;
+  }
+    /* right side section css start from here*/
+    .right-side-section h3 {
+      margin: 16px 0px;
+      font-size: 20px;
+      font-weight: 500;
+  }
+  .border-sec{
+    border-right:none;
+    margin-bottom: 10px;
+  }
+  /* right side section css end */
+  }

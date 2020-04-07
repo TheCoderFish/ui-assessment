@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-task</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,700,700i&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+   
+
+</head>
+<body>
+    <!-- Header section start -->
+    <div class="header-section navbar-fixed">
+            <div class="container">
+              
+                    <div class="col-xs-4 col-md-3 col-sm-3 col-lg-3">
+                        <h1>Boardash</h1>  
+                    </div>   
+                    <div class="col-xs-8 col-md-9 col-sm-9 col-lg-9">
+                            <section class="search-form">
+                                <form action="" method="GET" name="search" role="search">
+                                <p class="inp-wrap search-wrap">
+                                    <label for="search-field" class="search-label grid-25"><i class="fa fa-search"></i></label>
+                                    <input type="search" name="search-term" id="search-field" class="grid-75 search-info" placeholder="Search"></p>
+                                    <p class="inp-wrap cat-wrap">
+                                        <select name="search categories" id="categories" class="grid-80 category-details ">
+                                        <option value="newyork" selected>Category</option> 
+                                         <option value="chicago">Category1</option>
+                                        <option value="losangeles">Category2</option>
+                                        <option value="seattle">Category3</option>
+                                        <option value="dallas">Category4</option>
+                                        <option value="boston">Category5</option>
+                                        <option value="sanfran">Category6</option>  
+                                        </select>
+                                    </p> 
+                                    
+                                </form>
+                            </section> 
+                        
+                            
+                    </div>
+                </div>           
+    </div>
+    <!-- Header section end -->
+        <!-- main section of layout start from here -->
+        <section class="main-part-layout">
+            <div class="container">
+               <div class="row">
+                   <!-- left section strart from here -->
+                   <div class="col-xs-12 col-sm-4 col-md-3 col-lg-3 left-side-section">
+                     <i class="fas fa-bookmark" style="float: right;font-size: 20px;color:#7eb371"></i>
+
+                       <div class="welcome-essie">
+                       
+                           <img src="img/face-2.jpg" class="img-responsive" alt="welcome-essie">
+                           <h3>welcome Essie</h3>
+                           <p>Admin Head</p>
+                       </div> 
+                       <div class="admin-list-info">
+                           <ul>
+                               <li><a href="#"><i class="fas fa-qrcode"></i>Overview</a></li>
+                               <li><a href="#"><i class="fas fa-bookmark"></i>Reservation</a></li>
+                               <li style="background-color: #f5faff;border-left: 1px solid #4da1ff;"><a href="#" style="color:#4da1ff"><i class="fas fa-window-maximize" style="color:#4da1ff"></i>Meeting</a></li>
+                               <li><a href="#"><i class="fas fa-user-friends"></i>Customers</a></li>
+                               <li><a href="#"><i class="fas fa-ticket-alt"></i>Ticket</a></li>
+                               <li><a href="#"><i class="fas fa-ticket-alt"></i>Support</a></li>
+                               <li><a href="#"><i class="fas fa-user"></i>Profile</a></li>
+                               <li class="logout"><a href="#"><i class="fas fa-circle-notch"></i>Logout</a></li>
+                            </ul>
+                       </div>
+                   </div>
+                   <!-- left section end -->
+                   <div class="col-xs-12 col-sm-8 col-md-9 col-lg-9">
+                       <div class="right-side-section">
+                          <h3>Meetings</h3>
+                            <div class="row top-section-meetings">
+                                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 border-sec">
+                                    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                                        <div class="meeting-section">
+                                            <i class="fas fa-users"></i>
+                                        </div>
+                                        
+                                    </div>
+                                    <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+                                       <div class="meeting-section-info">
+                                           <h4>Number of Meetings</h4>
+                                           <span><strong style="color:#323c47;font-size: 18px;">36</strong>  This month</span>
+                                       </div>     
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 border-sec">
+                                    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                                        <div class="meeting-section">
+                                            <i class="far fa-calendar-alt"></i>
+                                        </div>
+                                        
+                                    </div>
+                                    <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+                                       <div class="meeting-section-info">
+                                           <h4>Rescheduled Meetings</h4>
+                                           <span><strong style="color:#323c47;font-size: 18px;">14</strong>  This month</span>
+                                       </div>     
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                                    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                                        <div class="meeting-section">
+                                            <i class="far fa-calendar-alt"></i>
+                                        </div>
+                                        
+                                    </div>
+                                    <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+                                       <div class="meeting-section-info">
+                                           <h4>Cancellation Meetings</h4>
+                                           <span><strong style="color:#323c47;font-size: 18px;">20</strong>  This month</span>
+                                       </div>     
+                                    </div>
+                                </div>
+                            </div>
+                       </div>
+                       <div class="second-part-right-section">
+                           <h5>Today-8 Meeting</h5>
+                           <div class=" main-row1 row ">
+                               <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 ">
+                                   <div class="row design-catchup-section">
+                                      <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                                          <img src="img/catchup-img.jpg" class="img-responsive" alt="catchup-img">
+                                      </div> 
+                                      <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+                                          <h5>Design Catchup</h5>
+                                          <p>adellac@josianne.com</p>
+                                          <strong style="color:#81878e;">10:30 AM</strong>
+                                      </div> 
+                        
+                                   </div>
+                                   <div class="row design-catchup-section part-2">
+                                    <div class="col-xs-7 col-sm-7 col-md-7 col-lg-7">
+                                        <p>9 Members going</p>
+                                        <span>
+                                            <img src="img/img1.png"alt="catchup-img">
+                                           <img src="img/img2.jpg" alt="catchup-img">
+                                           <img src="img/img3.png" alt="catchup-img">
+                                           <img src="img/img4.jpg" alt="catchup-img">
+                                           </span>
+                                           
+                                        
+                                    </div> 
+                                    <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
+                                        <h5>2 Pending</h5>
+                                        <h6>+5 more</h6>
+                                    </div> 
+                      
+                                 </div>
+                                 <div class="row design-catchup-section part-3">
+                                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                          
+                                            <h4 >View Details </h4>     
+                                            
+                                     </div>
+                                 </div>
+                               </div>
+                               <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 ">
+                                <div class="row design-catchup-section">
+                                   <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                                       <img src="img/sales-img.png" alt="catchup-img">
+                                   </div> 
+                                   <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+                                       <h5>Sales Presentation</h5>
+                                       <p>adellac@josianne.com</p>
+                                       <strong style="color:#81878e;">10:30 AM</strong>
+                                   </div> 
+                     
+                                </div>
+                                <div class="row design-catchup-section part-2">
+                                 <div class="col-xs-7 col-sm-7 col-md-7 col-lg-7">
+                                     <p>9 Members going</p>
+                                     <span>
+                                        <img src="img/img1.png" alt="catchup-img">
+                                       <img src="img/img2.jpg" alt="catchup-img">
+                                       <img src="img/img3.png" alt="catchup-img">
+                                       <img src="img/img4.jpg" alt="catchup-img">
+                                    </span>
+                                       
+                                     
+                                 </div> 
+                                 <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
+                                     <h5>3 Not joining</h5>
+                                     <h6>+5 more</h6>
+                                 </div> 
+                   
+                              </div>
+                              <div class="row design-catchup-section part-3">
+                                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"style="background-color:#2290ff">   
+                                         <h4 style="color:#fff">View Details</h4> 
+                                  </div>
+                              </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 ">
+                                <div class="row design-catchup-section">
+                                   <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                                       <img src="img/dailymeeting.jpg" class="img-responsive" alt="catchup-img">
+                                   </div> 
+                                   <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+                                       <h5>Daily Meeting</h5>
+                                       <p>adellac@josianne.com</p>
+                                       <strong style="color:#81878e;">10:30 AM</strong>
+                                   </div> 
+                     
+                                </div>
+                                <div class="row design-catchup-section part-2">
+                                 <div class="col-xs-7 col-sm-7 col-md-7 col-lg-7">
+                                     <p>9 Members going</p>
+                                     <span>
+                                        <img src="img/img1.png" alt="catchup-img">
+                                       <img src="img/img2.jpg" alt="catchup-img">
+                                       <img src="img/img3.png" alt="catchup-img">
+                                       <img src="img/img4.jpg" alt="catchup-img">
+                                    </span>
+                                       
+                                     
+                                 </div> 
+                                 <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
+                                     <h5>5 Pending</h5>
+                                     <h6>+5 more</h6>
+                                 </div> 
+                   
+                              </div>
+                              <div class="row design-catchup-section part-3">
+                                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">   
+                                         <h4>View Details</h4> 
+                                  </div>
+                              </div>
+                            </div>
+                           </div>
+                           <div class=" main-row2 row ">
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 ">
+                                <div class="row design-catchup-section">
+                                   <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                                       <img src="img/catchup-img.jpg" class="img-responsive" alt="catchup-img">
+                                   </div> 
+                                   <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+                                       <h5>Testing Vol.1</h5>
+                                       <p>adellac@josianne.com</p>
+                                       <strong style="color:#81878e;">02:30 AM</strong>
+                                   </div> 
+                     
+                                </div>
+                                <div class="row design-catchup-section part-2">
+                                 <div class="col-xs-7 col-sm-7 col-md-7 col-lg-7">
+                                     <p>7 Members going</p>
+                                     <span>
+                                      <img src="img/img1.png" alt="catchup-img">
+                                     <img src="img/img2.jpg" alt="catchup-img">
+                                     <img src="img/img3.png" alt="catchup-img">
+                                     <img src="img/img4.jpg" alt="catchup-img">
+                                     </span>
+                                     
+                                 </div> 
+                                 <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
+                                     <h5>2 Pending</h5>
+                                     <h6>+5 more</h6>
+                                 </div> 
+                   
+                              </div>
+                              <div class="row design-catchup-section part-3">
+                                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">   
+                                         <h4>View Details</h4> 
+                                  </div>
+                              </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 ">
+                             <div class="row design-catchup-section">
+                                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                                    <img src="img/catchup-img.jpg" class="img-responsive" alt="catchup-img">
+                                </div> 
+                                <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+                                    <h5>Invision Collabration</h5>
+                                    <p>adellac@josianne.com</p>
+                                    <strong style="color:#81878e;">10:30 AM</strong>
+                                </div> 
+                  
+                             </div>
+                             <div class="row design-catchup-section part-2">
+                              <div class="col-xs-7 col-sm-7 col-md-7 col-lg-7">
+                                  <p>2 Members going</p>
+                                  <span>
+                                    <img src="img/img1.png" alt="catchup-img">
+                                   <img src="img/img2.jpg" alt="catchup-img">
+                                   <img src="img/img3.png" alt="catchup-img">
+                                   <img src="img/img4.jpg" alt="catchup-img">
+                                   </span>
+                                   
+                                  
+                              </div> 
+                              <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
+                                  <h5>8 Pending</h5>
+                                  <h6>+6 more</h6>
+                              </div> 
+                
+                           </div>
+                           <div class="row design-catchup-section part-3">
+                               <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">   
+                                      <h4>View Details</h4> 
+                               </div>
+                           </div>
+                         </div>
+                         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 ">
+                             <div class="row design-catchup-section">
+                                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                                    <img src="img/img1.png" class="img-responsive" alt="catchup-img">
+                                </div> 
+                                <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+                                    <h5>Tech Talk</h5>
+                                    <p>adellac@josianne.com</p>
+                                    <strong style="color:#81878e;">06:00 PM</strong>
+                                </div> 
+                  
+                             </div>
+                             <div class="row design-catchup-section part-2">
+                              <div class="col-xs-7 col-sm-7 col-md-7 col-lg-7">
+                                  <p>9 Members going</p>
+                                  <span>
+                                    <img src="img/img1.png" alt="catchup-img">
+                                   <img src="img/img2.jpg" alt="catchup-img">
+                                   <img src="img/img3.png" alt="catchup-img">
+                                   <img src="img/img4.jpg" alt="catchup-img">
+                                   </span>
+                                   
+                                  
+                              </div> 
+                              <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
+                                  <h5>8 Pending</h5>
+                                  <h6>+13 more</h6>
+                              </div> 
+                
+                           </div>
+                           <div class="row design-catchup-section part-3">
+                               <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">   
+                                      <h4>View Details</h4> 
+                               </div>
+                           </div>
+                         </div>
+                        </div>
+                       </div>
+                        
+                   </div>
+               </div>     
+            </div>
+        </section>
+           
+         <!-- main section of layout end  -->
+    
+    <script type="text/javascript" src="js/main.js"></script>  
+</body>
+</html>
